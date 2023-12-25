@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let a = parseInt(prompt("nhap vao so gioi han"));
+    let soDoan = Math.floor(Math.random() * a) +1;
+    let soLanDoan = '';
+    for(i=0; i<= a; i++){
+        let b = parseInt(prompt("nhap vao so ban đoan"));
+        if(b==soDoan){
+            alert("chúc mừng bạn đã đoán đúng");
+            break;
+        }else if(b<soDoan){
+            alert("so bạn đoán bé hơn đáp án");
+        }else{
+            alert("so ban doan lớn hơn đáp án")
+        }  
+    }
+     
+    
+</script>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var ngaySinh;
+        ngaySinh = +prompt("Nhập vào số ngày sinh của bạn", "0");
+        if (ngaySinh % 2 === 0) {
+            for (i = 0; i <= ngaySinh; i += 2) {
+                console.log(i);
+            }
+        } else {
+            for (i = 1; i <= ngaySinh; i += 2) {
+                console.log(i);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
